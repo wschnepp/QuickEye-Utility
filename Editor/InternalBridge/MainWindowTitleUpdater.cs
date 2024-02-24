@@ -1,6 +1,4 @@
-﻿using System;
-using System.Reflection;
-using UnityEditor;
+﻿using UnityEditor;
 
 namespace QuickEye.Utility.Editor.WindowTitle
 {

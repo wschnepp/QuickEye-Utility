@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace QuickEye.Utility.Editor.WindowTitle
 {
-    internal static class WindowTitleSettings
+    public static class WindowTitleSettings
     {
         private static Settings _instance;
 
@@ -62,7 +62,7 @@ namespace QuickEye.Utility.Editor.WindowTitle
     • <TargetPlatform> {_DisabledTextColorTag}{TitleFormatter.Format("<TargetPlatform>")}</color>";
                 GUILayout.Label(parametersInfoBox, style);
             }
-
+            
             if (EditorGUI.EndChangeCheck())
             {
                 Instance.Save();
